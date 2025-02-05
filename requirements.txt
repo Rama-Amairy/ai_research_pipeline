@@ -1,0 +1,8 @@
+langchain_community
+wikipedia
+pandas
+transformers
+flask
+flask-restful
+TensorFlow
+tf-keras

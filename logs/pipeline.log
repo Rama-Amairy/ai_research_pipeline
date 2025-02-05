@@ -1,0 +1,13 @@
+2025-02-05 22:25:48,366 - INFO - Running the pipeline manually.
+2025-02-05 22:26:00,867 - INFO - Starting pipeline execution.
+2025-02-05 22:26:00,867 - INFO - Fetching Wikipedia data for keyword: sport
+2025-02-05 22:26:19,285 - INFO - Successfully loaded data for keyword: sport
+2025-02-05 22:26:19,286 - INFO - Starting data transformation.
+2025-02-05 22:26:19,345 - INFO - Transformed data: 3 records found.
+2025-02-05 22:26:28,230 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-05 22:26:30,013 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-02-05 22:26:37,182 - INFO - Starting Q&A with question: what is sport?
+2025-02-05 22:26:41,212 - INFO - Q&A completed with 3 answers generated.
+2025-02-05 22:26:41,212 - INFO - Pipeline execution completed.
