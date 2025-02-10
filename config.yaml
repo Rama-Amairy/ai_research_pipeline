@@ -1,1 +1,22 @@
-qa_model: "distilbert-base-uncased-distilled-squad"
+
+
+models:
+  default_model: "distilbert-base-uncased-distilled-squad"   # Default model for Q&A (can be replaced)
+  deepseek_model: "deepseek/deepseek-chat:free"  # DeepSeek model option
+
+pipeline_stages:
+  - load_data: "src.load_data.LoadDataStage"
+  - clean_data: "src.clean_data.TransformStage"
+  - qa_transform: "src.qa_transform.QATransformStage"
+
+logging:
+  log_file: "logs/pipeline.log"
+  log_level: "INFO"
+
+# Model handler configurations
+qa_stage:
+  model_name: "deepseek/deepseek-chat:free"  # Default Q&A model used in QATransformStage
+  model_type: "deepseek"  # Can be "qa" (HuggingFace) or "deepseek" (OpenRouter)
+  api_key: ""  # If using DeepSeek through OpenRouter
+
+

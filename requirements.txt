@@ -3,6 +3,9 @@ wikipedia
 pandas
 transformers
 flask
-flask-restful
+flask-restx
 TensorFlow
 tf-keras
+tabulate
+openrouter
+openai

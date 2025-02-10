@@ -10,6 +10,6 @@ class PipelineStage(ABC):
     def execute(self, data=None, **kwargs):
         """
         Abstract method for pipeline stages.
-        Must be implemented by subclasses.
+        
         """
         pass

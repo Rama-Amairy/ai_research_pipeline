@@ -11,3 +11,81 @@
 2025-02-05 22:26:37,182 - INFO - Starting Q&A with question: what is sport?
 2025-02-05 22:26:41,212 - INFO - Q&A completed with 3 answers generated.
 2025-02-05 22:26:41,212 - INFO - Pipeline execution completed.
+2025-02-06 15:43:14,942 - INFO - Running the pipeline manually.
+2025-02-06 15:44:14,837 - INFO - Starting pipeline execution.
+2025-02-06 15:44:14,837 - INFO - Fetching Wikipedia data for keyword: information technology
+2025-02-06 15:44:24,627 - INFO - Successfully loaded data for keyword: information technology
+2025-02-06 15:44:24,627 - INFO - Starting data transformation.
+2025-02-06 15:44:24,681 - INFO - Transformed data: 2 records found.
+2025-02-06 15:44:29,536 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-06 15:44:31,310 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-02-06 15:44:38,871 - INFO - Starting Q&A with question: how to start IT
+2025-02-06 15:44:43,609 - INFO - Q&A completed with 2 answers generated.
+2025-02-06 15:44:43,609 - INFO - Pipeline execution completed.
+2025-02-10 14:40:04,387 - INFO - Running the pipeline manually.
+2025-02-10 14:42:56,152 - INFO - Starting pipeline execution.
+2025-02-10 14:42:56,152 - INFO - Fetching Wikipedia data for keyword: python
+2025-02-10 14:43:01,968 - INFO - Successfully loaded data for keyword: python
+2025-02-10 14:43:01,968 - INFO - Starting data transformation.
+2025-02-10 14:43:02,022 - INFO - Transformed data: 2 records found.
+2025-02-10 14:43:06,791 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-10 14:43:08,357 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-02-10 14:43:14,246 - INFO - Starting Q&A with question: is it easy?
+2025-02-10 14:43:16,956 - INFO - Q&A completed with 2 answers generated.
+2025-02-10 14:43:16,956 - INFO - Pipeline execution completed.
+2025-02-10 14:47:31,143 - INFO - Running the pipeline manually.
+2025-02-10 14:47:53,903 - INFO - Starting pipeline execution.
+2025-02-10 14:47:53,903 - INFO - Fetching Wikipedia data for keyword: python
+2025-02-10 14:47:59,250 - INFO - Successfully loaded data for keyword: python
+2025-02-10 14:47:59,251 - INFO - Starting data transformation.
+2025-02-10 14:47:59,252 - INFO - Transformed data: 2 records found.
+2025-02-10 14:48:03,922 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-10 14:48:04,456 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-02-10 14:48:06,444 - INFO - Starting Q&A with question: is it easy?
+2025-02-10 14:48:07,441 - INFO - Q&A completed with 2 answers generated.
+2025-02-10 14:48:07,441 - INFO - Pipeline execution completed.
+2025-02-10 14:49:27,585 - INFO - Running the pipeline manually.
+2025-02-10 14:50:01,048 - INFO - Starting pipeline execution.
+2025-02-10 14:50:01,049 - INFO - Fetching Wikipedia data for keyword: information technology
+2025-02-10 14:50:06,867 - INFO - Successfully loaded data for keyword: information technology
+2025-02-10 14:50:06,867 - INFO - Starting data transformation.
+2025-02-10 14:50:06,868 - INFO - Transformed data: 2 records found.
+2025-02-10 14:50:10,589 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-10 14:50:11,149 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-02-10 14:50:13,156 - INFO - Starting Q&A with question: what is information technology?
+2025-02-10 14:50:14,586 - INFO - Q&A completed with 2 answers generated.
+2025-02-10 14:50:14,586 - INFO - Pipeline execution completed.
+2025-02-10 14:50:36,573 - INFO - Running the pipeline manually.
+2025-02-10 14:50:48,797 - INFO - Starting pipeline execution.
+2025-02-10 14:50:48,798 - INFO - Fetching Wikipedia data for keyword: sport
+2025-02-10 14:50:53,923 - INFO - Successfully loaded data for keyword: sport
+2025-02-10 14:50:53,924 - INFO - Starting data transformation.
+2025-02-10 14:50:53,925 - INFO - Transformed data: 3 records found.
+2025-02-10 14:50:57,583 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-10 14:50:58,119 - WARNING - From G:\ai_pipeline\.venv\Lib\site-packages\tf_keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2025-02-10 14:51:00,113 - INFO - Starting Q&A with question: what is the best sport?
+2025-02-10 14:51:02,065 - INFO - Q&A completed with 3 answers generated.
+2025-02-10 14:51:02,065 - INFO - Pipeline execution completed.
+2025-02-10 16:15:15,843 - INFO - Running the pipeline manually.
+2025-02-10 16:15:49,847 - INFO - Starting pipeline execution.
+2025-02-10 16:15:49,848 - INFO - Fetching Wikipedia data for keyword: sport
+2025-02-10 16:16:41,474 - INFO - Running the pipeline manually.
+2025-02-10 16:20:39,047 - INFO - Running the pipeline manually.
+2025-02-10 20:03:14,249 - root - INFO - Running the pipeline manually.
+2025-02-10 20:10:05,571 - root - INFO - Running the pipeline manually.
+2025-02-10 20:10:15,720 - Pipeline - INFO - Starting pipeline execution.
+2025-02-10 20:10:15,720 - LoadDataStage - INFO - Fetching Wikipedia data for keyword: sprot
+2025-02-10 20:10:28,639 - LoadDataStage - INFO - Successfully loaded data for keyword: sprot
+2025-02-10 20:10:28,639 - TransformStage - INFO - Starting data transformation.
+2025-02-10 20:10:28,717 - TransformStage - INFO - Transformed data: 2 records found.
+2025-02-10 20:10:28,717 - Pipeline - INFO - Executing Q&A with the model.

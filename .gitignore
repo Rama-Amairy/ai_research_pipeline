@@ -1,1 +1,56 @@
-.venv
+# ----------------------
+# Python Compiled Files
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------
+# Environments
+# -----------
+env/
+venv/
+.venv/
+venvLib/
+
+# -----------
+# Logs & Temp
+# -----------
+logs/
+*.log
+
+# ------------
+# System Files
+# ------------
+.DS_Store
+Thumbs.db
+
+# ---------------
+# Editor/IDE Files
+# ---------------
+.vscode/
+.idea/
+
+# ------------------
+# Jupyter Notebooks
+# ------------------
+.ipynb_checkpoints/
+
+# -------------
+# Pytest Cache
+# -------------
+.pytest_cache/
+
+# -------------
+# Coverage
+# -------------
+htmlcov/
+.coverage
+coverage.xml
+
+# -----------------
+# Other Custom Ignores
+# -----------------
+# Add any other files or folders you don’t want to track
+# e.g., secrets, config files, etc.
+*.env

@@ -1,11 +1,21 @@
-from transformers import pipeline
 import pandas as pd
 from src.base import PipelineStage
+from src.models.huggingFace import QAModelHandler
+from src.models.deepseek_model import DeepSeekModelHandler
 
 class QATransformStage(PipelineStage):
-    def __init__(self, qa_model: str):
+    def __init__(self, model_name: str, model_type: str, api_key: str = None):
         super().__init__("QATransformStage")
-        self.qa_pipeline = pipeline("question-answering", model=qa_model)
+        
+        # Dynamically load the right model handler
+        if model_type == "qa":
+            self.model_handler = QAModelHandler(model_name)
+        elif model_type == "deepseek":
+            self.model_handler = DeepSeekModelHandler(model_name, api_key)
+        else:
+            raise ValueError(f"Unsupported model type: {model_type}")
+
+        self.model_handler.load_model()
 
     def execute(self, data: pd.DataFrame, question: str, **kwargs) -> pd.DataFrame:
         """
@@ -18,14 +28,9 @@ class QATransformStage(PipelineStage):
 
         for idx, row in data.iterrows():
             context = row['Summary']
-            if not context.strip():
-                answers.append("No context provided.")
-                confidences.append(0.0)
-                continue
-
-            result = self.qa_pipeline(question=question, context=context)
-            answers.append(result.get("answer", "No answer returned"))
-            confidences.append(result.get("score", 0.0))
+            result = self.model_handler.predict(context, question)
+            answers.append(result["answer"])
+            confidences.append(result["score"])
 
         data['answer'] = answers
         data['confidence'] = confidences
