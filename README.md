@@ -96,7 +96,7 @@ qa_stage:
 
 ## Future Enhancements
 
-```
+
 Advanced Context Summarization: Implement an optional summarization step to reduce large contexts before passing them to the QA model.
 
 Embedding-Based Retrieval: Integrate a vector database to retrieve the most relevant passages for the given question, optimizing the pipeline for larger datasets.
@@ -109,7 +109,7 @@ Model Auto-Selection: Dynamically select the best model (e.g., local or remote) 
 
 Enhanced Error Handling: Add more robust mechanisms for catching and retrying failed API calls or handling network timeouts.
 
-```
+----
 
 ## Author
 
