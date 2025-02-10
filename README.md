@@ -7,7 +7,7 @@ A simple, modular **Question Answering (QA)** pipeline that fetches content from
 ## Features
 
 - **Wikipedia Data Fetching**: Retrieve relevant data using keywords.
-- **Data Transformation**: Structure the retrieved content into pages and summaries.
+- **Data Transformation**: Structure the retrieved content into pages.
 - **Question Answering**: Use AI models (e.g., HuggingFace or OpenRouter-based models) to answer questions based on the structured content.
 - **Flask API**: Serve the pipeline through a RESTful API.
 
@@ -93,13 +93,29 @@ qa_stage:
 
 ---
 
-## License
 
-This project is licensed under the MIT License.
+## Future Enhancements
 
----
+```
+Advanced Context Summarization: Implement an optional summarization step to reduce large contexts before passing them to the QA model.
+
+Embedding-Based Retrieval: Integrate a vector database to retrieve the most relevant passages for the given question, optimizing the pipeline for larger datasets.
+
+Multi-Source Data Fetching: Extend the pipeline to fetch and merge content from additional sources like scholarly databases, news websites, or local documents.
+
+Parallel Processing: Enable parallel execution of pipeline stages to improve performance for large-scale data processing.
+
+Model Auto-Selection: Dynamically select the best model (e.g., local or remote) based on the complexity of the question or context length.
+
+Enhanced Error Handling: Add more robust mechanisms for catching and retrying failed API calls or handling network timeouts.
+
+```
 
 ## Author
 
 [Rama Amairy](https://github.com/Rama-Amairy)
+
+---
+
+
 
