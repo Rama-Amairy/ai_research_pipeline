@@ -11,6 +11,7 @@ if MAIN_DIR not in sys.path:
 
 from flask_restx import Api, Resource, fields
 from src.pipeline.pipeline import Pipeline 
+
 # Optional: if you have a config.yaml for model settings:
 # e.g., model_name, model_type, api_key
 CONFIG_PATH = os.path.join("config.yaml")

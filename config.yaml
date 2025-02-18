@@ -17,6 +17,6 @@ logging:
 qa_stage:
   model_name: "deepseek/deepseek-chat:free"  # Default Q&A model used in QATransformStage
   model_type: "deepseek"  # Can be "qa" (HuggingFace) or "deepseek" (OpenRouter)
-  api_key: ""  # If using DeepSeek through OpenRouter
+  api_key: "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"  # If using DeepSeek through OpenRouter
 
 

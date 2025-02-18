@@ -10,14 +10,14 @@ from rich.table import Table
 # Import your fixed-stage pipeline
 from src.pipeline.pipeline import Pipeline  # pipeline with load->transform->QA
 
-MAIN_DIR = os.path.abspath(os.path.dirname(__file__))
-
+MAIN_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+print(MAIN_DIR)
 def load_config():
     """
     Load the configuration from the YAML file for the model settings.
     (We do NOT load pipeline stages from config; they are fixed in the code.)
     """
-    config_path = os.path.join(MAIN_DIR, "config.yaml")
+    config_path = os.path.join("config.yaml")
     with open(config_path, "r") as config_file:
         return yaml.safe_load(config_file)
 
@@ -99,7 +99,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run the Q&A pipeline or API.")
     parser.add_argument("--mode", choices=["api", "pipeline"], default="pipeline",
                         help="Run Flask API or pipeline.")
-    parser.add_argument("--output-format", choices=["plain", "tabulate","rich"], default="plain",
+    parser.add_argument("--output-format", choices=["plain", "tabulate","rich"], default="rich",
                         help="Output format.")
 
     args = parser.parse_args()
